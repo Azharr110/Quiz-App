@@ -2,37 +2,37 @@ const questions = [
     {
         question: "Which is largest animal in the world",
         answers: [
-            {test: "Shark", correct: false},
-            {test: "Blue Whale", correct: true},
-            {test: "Elephant", correct: false},
-            {test: "Giraffe", correct: false},
+            {text: "Shark", correct: false},
+            {text: "Blue Whale", correct: true},
+            {text: "Elephant", correct: false},
+            {text: "Giraffe", correct: false},
         ]
     },
     {
         question: "Which is the smallest country in the world",
         answers: [
-            {test: "Vatican City", correct: true},
-            {test: "Bhutan", correct: false},
-            {test: "Behrain", correct: false},
-            {test: "Oman", correct: false},
+            {text: "Vatican City", correct: true},
+            {text: "Bhutan", correct: false},
+            {text: "Behrain", correct: false},
+            {text: "Oman", correct: false},
         ]
     },
     {
-        question: "Which Batsman has scored the Fastest 100 in ODI",
+        question: "Which Batsman has scored the Fastext 100 in ODI",
         answers: [
-            {test: "Misbah ul haq", correct: false},
-            {test: "David Miller", correct: true},
-            {test: "Ab de Villiers", correct: false},
-            {test: "Rohit Sharma", correct: true},
+            {text: "Misbah ul haq", correct: false},
+            {text: "David Miller", correct: true},
+            {text: "Ab de Villiers", correct: false},
+            {text: "Rohit Sharma", correct: true},
         ]
     },
     {
-        question: "Which Batsman has scored the Fastest 100 in T-20",
+        question: "Which Batsman has scored the Fastext 100 in T-20",
         answers: [
-            {test: "Misbah ul haq", correct: false},
-            {test: "David Miller", correct: true},
-            {test: "Ab de Villiers", correct: false},
-            {test: "Rohit Sharma", correct: false},
+            {text: "Misbah ul haq", correct: false},
+            {text: "David Miller", correct: true},
+            {text: "Ab de Villiers", correct: false},
+            {text: "Rohit Sharma", correct: false},
         ]
     },
 ]
