@@ -18,19 +18,19 @@ const questions = [
         ]
     },
     {
-        question: "Which Batsman has scored the Fastext 100 in ODI",
+        question: "Which Batsman has scored the Fastest 100 in ODI",
         answers: [
             {text: "Misbah ul haq", correct: false},
-            {text: "David Miller", correct: true},
-            {text: "Ab de Villiers", correct: false},
-            {text: "Rohit Sharma", correct: true},
+            {text: "David Miller", correct: false},
+            {text: "Ab de Villiers", correct: true},
+            {text: "Rohit Sharma", correct: false},
         ]
     },
     {
-        question: "Which Batsman has scored the Fastext 100 in T-20",
+        question: "Which Batsman has scored the Fastest 100 in IPL",
         answers: [
-            {text: "Misbah ul haq", correct: false},
-            {text: "David Miller", correct: true},
+            {text: "Chris Gayle", correct: true},
+            {text: "David Miller", correct: false},
             {text: "Ab de Villiers", correct: false},
             {text: "Rohit Sharma", correct: false},
         ]
@@ -81,9 +81,41 @@ function selectAnswer(e){
     const isCorrect = selectedBtn.dataset.correct === "true"
     if(isCorrect){
         selectedBtn.classList.add("correct")
+        score++;
     }else{
         selectedBtn.classList.add("incorrect")
     }
+    Array.from(answerButtons.children).forEach(button=> {
+        if(button.dataset.correct === "true"){
+            button.classList.add("correct")
+        }
+        button.disabled = true;
+    })
+    nextButton.style.display = "block"
 }
+
+function showScore() {
+    resetState();
+    questionElement.innerHTML = `You Scored ${score} out of ${questions.length}! `
+    nextButton.innerHTML = "Play Again"
+    nextButton.style.display = "block"
+}
+
+function handleNextButton(){
+    currentQuestionIndex++;
+    if(currentQuestionIndex < questions.length){
+        showQuestion()
+    }else{
+        showScore()
+    }
+}
+
+nextButton.addEventListener("click", ()=> {
+    if(currentQuestionIndex < questions.length){
+        handleNextButton()
+    }else{
+        startQuiz()
+    }
+})
 
 startQuiz();
