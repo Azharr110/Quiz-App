@@ -1,38 +1,92 @@
 const questions = [
     {
-        question: "Which is largest animal in the world",
+        question: "Which of the following term is used for a function defined inside a class?",
         answers: [
-            {text: "Shark", correct: false},
-            {text: "Blue Whale", correct: true},
-            {text: "Elephant", correct: false},
-            {text: "Giraffe", correct: false},
+            {text: "Class function", correct: false},
+            {text: "Member function", correct: true},
+            {text: "Classic function", correct: false},
+            {text: "Member Variable", correct: false},
         ]
     },
     {
-        question: "Which is the smallest country in the world",
+        question: "Which of the following is not a type of constructor?",
         answers: [
-            {text: "Vatican City", correct: true},
-            {text: "Bhutan", correct: false},
-            {text: "Behrain", correct: false},
-            {text: "Oman", correct: false},
+            {text: "Friend constructor", correct: true},
+            {text: "Copy constructor", correct: false},
+            {text: "Default constructor", correct: false},
+            {text: "Parameterized constructor", correct: false},
         ]
     },
     {
-        question: "Which Batsman has scored the Fastest 100 in ODI",
+        question: "How many instances of an abstract class can be created?",
         answers: [
-            {text: "Misbah ul haq", correct: false},
-            {text: "David Miller", correct: false},
-            {text: "Ab de Villiers", correct: true},
-            {text: "Rohit Sharma", correct: false},
+            {text: "1", correct: false},
+            {text: "0", correct: true},
+            {text: "13", correct: false},
+            {text: "5", correct: false},
         ]
     },
     {
-        question: "Which Batsman has scored the Fastest 100 in IPL",
+        question: "Which of the following is an abstract data type?",
         answers: [
-            {text: "Chris Gayle", correct: true},
-            {text: "David Miller", correct: false},
-            {text: "Ab de Villiers", correct: false},
-            {text: "Rohit Sharma", correct: false},
+            {text: "string", correct: false},
+            {text: "Class", correct: true},
+            {text: "double", correct: false},
+            {text: "int", correct: false},
+        ]
+    },
+    {
+        question: "Which of the following concepts means wrapping up of data and functions together?",
+        answers: [
+            {text: "Abstraction", correct: false},
+            {text: "Encapsulation", correct: true},
+            {text: "Polymorphism", correct: false},
+            {text: "Inheritance", correct: false},
+        ]
+    },
+    {
+        question: "Which of the following operator is overloaded for object cout?",
+        answers: [
+            {text: ">>", correct: false},
+            {text: "=", correct: false},
+            {text: "+", correct: false},
+            {text: "<<", correct: true},
+        ]
+    },
+    {
+        question: "How many types of polymorphisms are supported by C++?",
+        answers: [
+            {text: "1", correct: false},
+            {text: "5", correct: false},
+            {text: "2", correct: true},
+            {text: "4", correct: false},
+        ]
+    },
+    {
+        question: "Which of the following provides a reuse mechanism?",
+        answers: [
+            {text: "Inheritance", correct: true},
+            {text: "Abstraction", correct: false},
+            {text: "Encapsulation", correct: false},
+            {text: "Dynamic binding", correct: false},
+        ]
+    },
+    {
+        question: "Which of the following cannot be friend?",
+        answers: [
+            {text: "Function", correct: false},
+            {text: "Class", correct: false},
+            {text: "Object", correct: true},
+            {text: "Operator function", correct: false},
+        ]
+    },
+    {
+        question: "Which of the following concepts of OOPS means exposing only necessary information to client?",
+        answers: [
+            {text: "Data hiding", correct: true},
+            {text: "Data binding", correct: false},
+            {text: "Abstraction", correct: false},
+            {text: "Encapsulation", correct: false},
         ]
     },
 ]
