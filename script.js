@@ -36,14 +36,15 @@ const questions = [
         ]
     },
     {
-        question: "Which of the following concepts means wrapping up of data and functions together?",
+        question: "How many types of polymorphisms are supported by C++?",
         answers: [
-            {text: "Abstraction", correct: false},
-            {text: "Encapsulation", correct: true},
-            {text: "Polymorphism", correct: false},
-            {text: "Inheritance", correct: false},
+            {text: "1", correct: false},
+            {text: "5", correct: false},
+            {text: "2", correct: true},
+            {text: "4", correct: false},
         ]
     },
+   
     {
         question: "Which of the following operator is overloaded for object cout?",
         answers: [
@@ -54,12 +55,12 @@ const questions = [
         ]
     },
     {
-        question: "How many types of polymorphisms are supported by C++?",
+        question: "How many instances of an abstract class can be created?",
         answers: [
             {text: "1", correct: false},
+            {text: "0", correct: true},
+            {text: "13", correct: false},
             {text: "5", correct: false},
-            {text: "2", correct: true},
-            {text: "4", correct: false},
         ]
     },
     {
@@ -87,6 +88,15 @@ const questions = [
             {text: "Data binding", correct: false},
             {text: "Abstraction", correct: false},
             {text: "Encapsulation", correct: false},
+        ]
+    },
+    {
+        question: "Which of the following concepts means wrapping up of data and functions together?",
+        answers: [
+            {text: "Abstraction", correct: false},
+            {text: "Encapsulation", correct: true},
+            {text: "Polymorphism", correct: false},
+            {text: "Inheritance", correct: false},
         ]
     },
 ]
