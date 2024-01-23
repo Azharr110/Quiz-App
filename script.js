@@ -27,6 +27,15 @@ const questions = [
         ]
     },
     {
+        question: "Which of the following concepts means wrapping up of data and functions together?",
+        answers: [
+            {text: "Abstraction", correct: false},
+            {text: "Encapsulation", correct: true},
+            {text: "Polymorphism", correct: false},
+            {text: "Inheritance", correct: false},
+        ]
+    },
+    {
         question: "Which of the following is an abstract data type?",
         answers: [
             {text: "string", correct: false},
@@ -46,15 +55,6 @@ const questions = [
     },
    
     {
-        question: "Which of the following operator is overloaded for object cout?",
-        answers: [
-            {text: ">>", correct: false},
-            {text: "=", correct: false},
-            {text: "+", correct: false},
-            {text: "<<", correct: true},
-        ]
-    },
-    {
         question: "How many instances of an abstract class can be created?",
         answers: [
             {text: "1", correct: false},
@@ -63,15 +63,7 @@ const questions = [
             {text: "5", correct: false},
         ]
     },
-    {
-        question: "Which of the following provides a reuse mechanism?",
-        answers: [
-            {text: "Inheritance", correct: true},
-            {text: "Abstraction", correct: false},
-            {text: "Encapsulation", correct: false},
-            {text: "Dynamic binding", correct: false},
-        ]
-    },
+   
     {
         question: "Which of the following cannot be friend?",
         answers: [
@@ -91,12 +83,21 @@ const questions = [
         ]
     },
     {
-        question: "Which of the following concepts means wrapping up of data and functions together?",
+        question: "Which of the following provides a reuse mechanism?",
         answers: [
+            {text: "Inheritance", correct: true},
             {text: "Abstraction", correct: false},
-            {text: "Encapsulation", correct: true},
-            {text: "Polymorphism", correct: false},
-            {text: "Inheritance", correct: false},
+            {text: "Encapsulation", correct: false},
+            {text: "Dynamic binding", correct: false},
+        ]
+    },
+    {
+        question: "Which of the following operator is overloaded for object cout?",
+        answers: [
+            {text: ">>", correct: false},
+            {text: "=", correct: false},
+            {text: "+", correct: false},
+            {text: "<<", correct: true},
         ]
     },
 ]
