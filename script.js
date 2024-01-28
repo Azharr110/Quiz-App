@@ -9,21 +9,21 @@ const questions = [
         ]
     },
     {
+        question: "Which of the following provides a reuse mechanism?",
+        answers: [
+            {text: "Inheritance", correct: true},
+            {text: "Abstraction", correct: false},
+            {text: "Encapsulation", correct: false},
+            {text: "Dynamic binding", correct: false},
+        ]
+    },
+    {
         question: "Which of the following is not a type of constructor?",
         answers: [
             {text: "Friend constructor", correct: true},
             {text: "Copy constructor", correct: false},
             {text: "Default constructor", correct: false},
             {text: "Parameterized constructor", correct: false},
-        ]
-    },
-    {
-        question: "How many instances of an abstract class can be created?",
-        answers: [
-            {text: "1", correct: false},
-            {text: "0", correct: true},
-            {text: "13", correct: false},
-            {text: "5", correct: false},
         ]
     },
     {
@@ -36,14 +36,16 @@ const questions = [
         ]
     },
     {
-        question: "Which of the following is an abstract data type?",
+        question: "How many instances of an abstract class can be created?",
         answers: [
-            {text: "string", correct: false},
-            {text: "Class", correct: true},
-            {text: "double", correct: false},
-            {text: "int", correct: false},
+            {text: "1", correct: false},
+            {text: "0", correct: true},
+            {text: "13", correct: false},
+            {text: "5", correct: false},
         ]
     },
+    
+    
     {
         question: "How many types of polymorphisms are supported by C++?",
         answers: [
@@ -55,12 +57,12 @@ const questions = [
     },
    
     {
-        question: "How many instances of an abstract class can be created?",
+        question: "Which of the following is an abstract data type?",
         answers: [
-            {text: "1", correct: false},
-            {text: "0", correct: true},
-            {text: "13", correct: false},
-            {text: "5", correct: false},
+            {text: "string", correct: false},
+            {text: "Class", correct: true},
+            {text: "double", correct: false},
+            {text: "int", correct: false},
         ]
     },
    
@@ -82,15 +84,7 @@ const questions = [
             {text: "Encapsulation", correct: false},
         ]
     },
-    {
-        question: "Which of the following provides a reuse mechanism?",
-        answers: [
-            {text: "Inheritance", correct: true},
-            {text: "Abstraction", correct: false},
-            {text: "Encapsulation", correct: false},
-            {text: "Dynamic binding", correct: false},
-        ]
-    },
+
     {
         question: "Which of the following operator is overloaded for object cout?",
         answers: [
@@ -98,6 +92,15 @@ const questions = [
             {text: "=", correct: false},
             {text: "+", correct: false},
             {text: "<<", correct: true},
+        ]
+    },
+    {
+        question: "How many instances of an abstract class can be created?",
+        answers: [
+            {text: "1", correct: false},
+            {text: "0", correct: true},
+            {text: "13", correct: false},
+            {text: "5", correct: false},
         ]
     },
 ]
